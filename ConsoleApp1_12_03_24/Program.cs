@@ -8,6 +8,9 @@ int liczba = 56;//Stworzenie zmiennej prymitywnej
 Postac postac1 = new Postac("Mietek6", ERodzaj.Wojownik, ERasa.Czlowiek);
 
 
-postac1.wypiszDanePostaci();
 
-postac1.poziom;
+
+postac1.ZdobywajPoziom(ETypyPoziomu.Ryby);
+postac1.ZdobywajPoziom(ETypyPoziomu.Ryby);
+postac1.ZdobywajPoziom(ETypyPoziomu.Smoki);
+postac1.wypiszDanePostaci();
